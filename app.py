@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Bu, Alpine tabanli GUVENLI bir Python konteyneridir."
+    return "Bu, Alpine tabanli bir Python konteyneridir."
 
 if __name__ == '__main__':
     # Uygulamayı dışarıya açıyoruz (0.0.0.0)
